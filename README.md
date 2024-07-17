@@ -12,6 +12,7 @@ I've also included the Python script that extracts individual icons from the 'so
 - Automatically calculate the dimensions of each icon.
 - Split the sprite image into individual icon files.
 - Save the extracted icons to a specified directory.
+- Rename extracted icons based on metadata.
 
 ## Requirements
 
@@ -72,3 +73,40 @@ I've also included the Python script that extracts individual icons from the 'so
 ## Contributing
 
 Contributions are welcome! If you have an updated set of icons for future leagues, please submit a pull request. The latest batch is from the 3.24: Necropolis patch.
+
+## Disclaimer
+
+I do not own the icons themselves. The icons are the property of [Grinding Gear Games](https://www.grindinggear.com/). Use them responsibly.
+
+## Acknowledgements
+
+- [Grinding Gear Games](https://www.grindinggear.com/) - The creators and owners of the icon assets.
+- zao (from the ['official' Path of Exile discord](https://discord.com/invite/pathofexile)) - The kind soul who provided me the source files.
+
+## License
+
+The code included in the `Scripts` directory is licensed under the MIT License - see the [LICENSE](./LICENSE.md) file for more details.
+
+```markdown
+MIT License
+
+Copyright (c) 2024 Your Name
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
