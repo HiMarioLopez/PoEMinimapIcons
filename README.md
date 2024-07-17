@@ -33,7 +33,7 @@ I've also included the Python script that extracts individual icons from the 'so
 
 ## Usage
 
-1. If you have an updated sprite sheet (these tend to get updated from league to league), place your updated sprite image in the project directory and name it `Minimap Icons.png`.
+1. If you have an updated sprite sheet (these tend to get updated from league to league), place your updated sprite image in the project directory and name it `Minimap Icons.png`. Same for the `Minimap Icons Metadata.json`.
 
 1. Edit the `calculate_icon_size.py` script to update the number of icons per row and column based on your updated sprite sheet:
 
@@ -65,8 +65,8 @@ I've also included the Python script that extracts individual icons from the 'so
 
 1. The extracted icons will be saved in the `Extracted Icons` directory.
 
+1. Run the `rename_icons.py` script to map the `Minimap Icons Metadata.json` to the generated images.
+
 ## Contributing
 
 Contributions are welcome! If you have an updated set of icons for future leagues, please submit a pull request. The latest batch is from the 3.24: Necropolis patch.
-
-# PoEMinimapIcons
