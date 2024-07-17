@@ -1,5 +1,7 @@
 # PoE Minimap Icons (+ Extraction Scripts)
 
+![Icons Preview](./Icons%20Preview.png)
+
 This repository contains all current minimap icons for Path of Exile in the `Extracted Icons` directory.
 
 I've also included the Python script that extracts individual icons from the 'source' sprite image (found in the game data `art/2dart/minimap/player.png`). The script uses the Pillow library to split the sprite image into individual icon files based on the specified number of rows and columns.
