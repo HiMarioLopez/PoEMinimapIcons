@@ -8,7 +8,6 @@ sprite_image = Image.open(sprite_image_path)
 sprite_width, sprite_height = sprite_image.size
 
 # Manually count the number of icons in one row and one column
-# Example: Assume there are 20 icons per row and 30 icons per column
 num_columns = 14  # Adjust based on actual count
 num_rows = 46  # Adjust based on actual count
 
