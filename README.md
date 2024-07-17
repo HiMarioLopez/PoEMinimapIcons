@@ -85,12 +85,12 @@ I do not own the icons themselves. The icons are the property of [Grinding Gear 
 
 ## License
 
-The code included in the `Scripts` directory is licensed under the MIT License - see the [LICENSE](./LICENSE.md) file for more details.
+The code included in the `Scripts` directory is licensed under the MIT License.
 
 ```markdown
 MIT License
 
-Copyright (c) 2024 Your Name
+Copyright (c) 2024 Mario Lopez Martinez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
