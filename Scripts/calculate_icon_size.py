@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Load the image
-sprite_image_path = './Minimap Icons.png'
+sprite_image_path = '../Game Data/Minimap Icons.png'
 sprite_image = Image.open(sprite_image_path)
 
 # Get the dimensions of the sprite image

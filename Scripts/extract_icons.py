@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 # Load the image
-sprite_image_path = './Minimap Icons.png'
+sprite_image_path = '../Game Data/Minimap Icons.png'
 sprite_image = Image.open(sprite_image_path)
 
 # Set the dimensions of each icon
@@ -14,7 +14,7 @@ columns = sprite_image.width // icon_width
 rows = sprite_image.height // icon_height
 
 # Create a directory to save the individual icons
-output_dir = './Extracted Icons'
+output_dir = '../Extracted Icons'
 os.makedirs(output_dir, exist_ok=True)
 
 # Loop through each icon and save it as a separate image

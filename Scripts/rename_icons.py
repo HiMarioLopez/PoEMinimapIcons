@@ -2,12 +2,12 @@ import json
 import os
 
 # Load the metadata
-metadata_file_path = './Minimap Icons Metadata.json'
+metadata_file_path = '../Game Data/Minimap Icons Metadata.json'
 with open(metadata_file_path, 'r') as file:
     metadata = json.load(file)
 
 # Directory containing the extracted icons
-extracted_icons_dir = './Extracted Icons'
+extracted_icons_dir = '../Extracted Icons'
 
 # Loop through the metadata and rename each icon file
 for index, data in enumerate(metadata):
